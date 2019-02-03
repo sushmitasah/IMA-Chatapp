@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html charset="utf-8" lang="en">
+<html>
+<head>
+	<title>LOGIN PAGE</title>
+<style>
+body
+{
+	background-image:url("1.jpeg");
+ 
+}
+#sap{
+height:500;
+width:1333;
+
+}
+
+table{
+ width:20%;
+ color:white;
+ padding:20px 40px 40px 60px;
+ margin-left:580px;
+ display: inline-block;
+ background-color:#6d5fc6;
+ border: 2px solid white;
+ box-sizing: border-box;
+text-align:center;
+}
+
+
+</style>
+</head>
+<body>
+
+<!-- this table is for user login box -->
+
+<table id="sap" width="100%">
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+
+	
+<tr>
+<td>
+<center>
+
+
+<div id="login_div" class="main-div">
+USERS LOGIN <br><br>
+
+<input type="email"  placeholder="enter your email" id="email_field" /><br><br>
+<input type="password" placeholder="enter your password"  id="password_field" ><br><br>
+<button type="button" onclick="log()">Login</button><br>
+
+</div>
+</center>
+</td>
+</tr>
+</table>
+
+
+<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCYYdwjYYs0s36x5Q-DL29VQn2x9Ciy5Eg",
+    authDomain: "angularchatapp-7d775.firebaseapp.com",
+    databaseURL: "https://angularchatapp-7d775.firebaseio.com",
+    projectId: "angularchatapp-7d775",
+    storageBucket: "angularchatapp-7d775.appspot.com",
+    messagingSenderId: "730535251703"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="login.js"></script> 
+
+	
+</body>
+</html>
